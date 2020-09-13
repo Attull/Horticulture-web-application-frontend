@@ -1,0 +1,84 @@
+<?php
+	include "connection.php";
+	include "navbar.php";
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+
+	<link rel="stylesheet" type="text/css" href="student_login.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-sacle=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		body
+		{
+			background-image: url(images/img2.png);
+			background-repeat:no-repeat;
+			  background-size: cover;
+
+
+		}
+		h3
+		{
+			text-align: center;
+			color: green;
+			font-weight: bold;
+			line-height: 50px;
+		}
+		.wrapper
+		{
+			height: 100px;
+			width :500px;
+			padding :0;
+
+			margin-left: 350px;
+			margin-top: 40px;
+			text-align: center;
+			background-size: cover;
+			font-family: sans-serif;
+		}
+		.submit
+		{
+			font-size: 15px;
+			font-weight: bold;
+			height:50px;
+			margin-top: 20px;
+			border:0;
+			border-radius:30px;	
+			width: 35%;
+			cursor: pointer;	
+			background:linear-gradient(to right,#32CD32,#98FB98);	
+			
+		}
+		.form-control
+		{
+			border:none;
+			border-bottom: 1px solid green;
+		}
+	</style>
+</head>
+<body>
+
+		<h3>Feedback / Suggestion</h3>
+	<div class="wrapper">
+		<form style="" action="mail.php" method="post">
+			<input class="form-control" type="text" name="name" placeholder="Your name"><br>
+			<input class="form-control" type="text" name="email" placeholder="Your email"><br>
+			<textarea class="form-control" type="text" name="message" row="4" placeholder="message">
+			</textarea><br>
+			<input type="submit" class="submit" value="SEND MESSAGE">
+		</form>
+	</div>
+
+</body>
+</html>

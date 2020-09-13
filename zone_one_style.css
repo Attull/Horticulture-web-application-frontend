@@ -1,0 +1,24 @@
+
+.submit_btn{
+	width: 32%;
+	padding: 10px 30px;
+	cursor: pointer;
+	margin:auto;
+	background:linear-gradient(to right,#32CD32,#98FB98);
+	border:0;
+	border-radius:30px;	
+}
+.ex{
+	margin:50px;
+}
+.ex1{
+	margin:25px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
