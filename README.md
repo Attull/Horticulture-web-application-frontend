@@ -7,6 +7,7 @@ here are some screenshots of above project
 ## Plant zone
 ![](screenshots/2.png)
 
+## Plant types with quantity
 ![](screenshots/3a.png)
 
 ![](screenshots/3b.png)
